@@ -12,4 +12,4 @@ tip = int(percentage)
 split = int(people)
 
 
-print(f"Each person should pay:{(round(money * (1+(tip/100))/split))}")
+print(f"Each person should pay: $ {(round(money * (1+(tip/100))/split))}")
